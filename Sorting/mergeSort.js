@@ -1,3 +1,9 @@
+// Test
+const arr = [5, 1, 4, 3, 2, 9, 6, 10, 8, 15, 7];
+const sorted = mergeSort(arr);
+console.log(sorted); 
+
+// Merge Sort Algorithm || Time Complexity: O(n log n) || Space Complexity: O(n)
 function mergeSort(arr) {
     if (arr.length <= 1) return arr;
 
@@ -31,7 +37,3 @@ function merge(left,right) {
     
 }
 
-// Test
-const arr = [5, 1, 4, 3, 2, 9, 6, 10, 8, 15, 7];
-const sorted = mergeSort(arr);
-console.log(sorted); // Output: [1, 2, 3, 4, 5]
